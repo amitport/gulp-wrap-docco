@@ -24,10 +24,16 @@ gulp.task('wrapDocco', function(){
 ## API
 
 gulp-wrap-docco is a ```function(options)``` that returns a ```read-write stream```.
-The _options_ argument can be either a [lodash.template](http://lodash.com/docs#template) string 
-or an object with a ```src``` property pointing to a file that contains such a template.
 
-**default** options = {src: 'lib/default.template.html'}
+### Options
+
+**type**: either ```string``` or ```{src: string}```
+
+if ```options``` is a string than it is interperted as a literal [lodash template](http://lodash.com/docs#template).
+Otherwise ```options.src``` is expected to contain a path to a file that contains a template.
+
+
+**default**: ```{src: 'lib/default.template.html'}```
 
 [travis-url]: http://travis-ci.org/amitport/gulp-wrap-docco
 [travis-image]: https://secure.travis-ci.org/amitport/gulp-wrap-docco.png?branch=master
