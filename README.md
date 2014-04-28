@@ -1,4 +1,4 @@
-# gulp-wrap-docco [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
+# gulp-wrap-docco [![NPM version][npm-image]][npm-url] [![NPM dep][npm-dep-image]][npm-dep-url] [![Build status][travis-image]][travis-url]
 > A gulp plugin to convert code into html using docco's parser, marked, highlight.js and lodash.template
 
 ## Usage
@@ -36,6 +36,8 @@ Otherwise ```options.src``` is expected to contain a path to a file that contain
 **default**: ```{src: 'lib/default.template.html'}```
 
 [travis-url]: http://travis-ci.org/amitport/gulp-wrap-docco
-[travis-image]: https://secure.travis-ci.org/amitport/gulp-wrap-docco.png?branch=master
+[travis-image]: https://secure.travis-ci.org/amitport/gulp-wrap-docco.svg?branch=master
 [npm-url]: https://npmjs.org/package/gulp-wrap-docco
-[npm-image]: https://badge.fury.io/js/gulp-wrap-docco.png
+[npm-image]: https://badge.fury.io/js/gulp-wrap-docco.svg
+[npm-dep-url]: https://david-dm.org/amitport/gulp-wrap-docco
+[npm-dep-image]: https://david-dm.org/amitport/gulp-wrap-docco.svg
