@@ -1,6 +1,6 @@
 {
   "name": "gulp-wrap-docco",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A gulp plugin to convert code into html using docco's parser, marked, highlight.js and lodash.template",
   "main": "index.js",
   "scripts": {
