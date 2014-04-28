@@ -26,3 +26,4 @@ node_modules
 
 # Local project management files
 .project
+build
