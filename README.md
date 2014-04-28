@@ -1,4 +1,4 @@
-# gulp-wrap [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
+# gulp-wrap-docco [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
 > A gulp plugin to convert code into html using docco's parser, marked, highlight.js and lodash.template
 
 ## Usage
