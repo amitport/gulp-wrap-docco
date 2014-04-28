@@ -1,6 +1,6 @@
 {
   "name": "gulp-wrap-docco",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A gulp plugin to convert code into html using docco's parser, marked, highlight.js and lodash.template",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/amitport/gulp-wrap-docco",
   "dependencies": {
-    "highland": "^1.22.0",
+    "highland": "^1.23.0",
     "marked": "^0.3.2",
     "highlight.js": "^8.0.0",
     "lodash.template": "^2.4.1"

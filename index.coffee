@@ -9,10 +9,6 @@ module.exports = (options = {src: "#{__dirname}/lib/default.template.html"}) ->
 	templateFn = processTemplate(templateStr)
 
 	return _.pipeline(
-		# A bug in highland makes _.pipeline ignore it's first argument (https://github.com/caolan/highland/issues/68)
-		# so we're just putting another empty pipeline here
-		_.pipeline()
-	,
 		_.map (file) -> 
 			file.contents = new Buffer(templateFn(docco(file.path, file.contents.toString())))
 			file

@@ -19,7 +19,7 @@
     }
     templateStr = typeof options === 'object' ? fs.readFileSync(options.src, 'utf-8') : options;
     templateFn = processTemplate(templateStr);
-    return _.pipeline(_.pipeline(), _.map(function(file) {
+    return _.pipeline(_.map(function(file) {
       file.contents = new Buffer(templateFn(docco(file.path, file.contents.toString())));
       return file;
     }));
